@@ -1,0 +1,70 @@
+color: cor da fonte 
+font-family: fonte
+fonty-size: rem; tamanho da fonte 
+background-color: cor de fundo
+padding: espaçamento entre o conteudo e a margin - rem 
+list-style-type: none; tira as bolinhas da lista 
+padding-left: espaçamento da esquerda 
+margin-bottom:8.5rem; margem de baixo
+border: 2px  solid - borda sobre a caixa 
+article 
+width px - largura da caixa 
+display: flex; organiza as caixas 
+justify-content: space between - espaco disponivel entre eles 
+box-sizing: border-box; computa a largura 
+display: in line block - ganha elementos dentro da linha 
+text-decoration: none -  tira o sublinhado
+border radius 0.25rem - arrendondar as bordas
+box shadow - esfumaça 0 0 10 10 paddin em cima, embaixo e etc
+regra do relogio em cima 0 direita 0 embaixo 0 esquerda 0
+dispaly none remove elementos
+=== importar fonte===
+google fontes
+copiar link e jogar na head
+flex-wrap definir se vai ter quebra
+allign itens: flexstart
+justify-content space between
+    flex-basis: 48%; 
+line height espaçamento entre linhas  
+min height altura das caixas
+
+
+evitar repetição
+variavel no css
+nas primeiras linhas do css:root {}
+nome de variavel começa com --
+apenas para valores 
+--cor-de-fundo-primaria:
+--cor-frente-destaque:
+--espacamento-padrao:
+--font-family-padrao:
+so unsar variavel para coisas repetitivas
+como invocar variavel 
+
+var(--cor-de-frente-padrao);
+
+dev tools
+botao do lado seletor
+pra emular o tamanho de uma tela de celular
+midiaquery css
+ctrl shift z volta o ctrl z 
+
+media only screen and (min-width:760px) {
+article section {
+width:45vw
+display:flex
+flex direction: row
+
+}
+}
+flex-direction- column; 
+vw largura da ttelha 
+width 85vw
+
+refatoração de codio: tirar as coisas que não esta utilizando no css
+
+MOBILE
+
+@media only screen and (min-width: 768px)
+
+ctrl F= pesquisa
